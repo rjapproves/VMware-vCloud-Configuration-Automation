@@ -1,0 +1,38 @@
+```xml
+<?xml version="1.0"?>
+<MasterConfig>
+
+<vcenterconfig>
+<vcenterfqdn>VCENTER FQDN</vcenterfqdn>
+<vcenteruser>administrator@vsphere.local</vcenteruser>
+<vcenterpassword>VCENTER USER PASSWORD</vcenterpassword>
+<Cluster_name>CLUSTER NAME</Cluster_name>
+</vcenterconfig>
+
+<vshieldinfo>
+<vshieldfqdn>VSHIELD MANAGER FQDN</vshieldfqdn>
+<vshielduser>admin</vshielduser>
+<vshieldpassword>PASSWORD</vshieldpassword>
+</vshieldinfo>
+
+<vcdConfig>
+<vcd_fqdn>VCLOUD FQDN</vcd_fqdn>
+<vcduser>administrator</vcduser>
+<vcdpassword>PASSWORD</vcdpassword>
+<vcdapi>5.5</vcdapi>
+<amqphost>RABBIT MQ IP OPTIONAL</amqphost>
+<orgname>ORGANIZATION NAME</orgname>
+</vcdConfig>
+
+
+<hostcount>1</hostcount>
+<hostinfo>
+<hostconfig>
+<hostname>HOSTNAME</hostname>
+<hostroot>ROOT</hostroot>
+<hostpassword>PASSWORD</hostpassword>
+</hostconfig>
+</hostinfo>
+
+</MasterConfig>
+```
